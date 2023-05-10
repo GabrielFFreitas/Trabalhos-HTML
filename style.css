@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "calibri";
+    src: url("./fontes/calibri.tff");
+}
+ 
+ 
+ 
+ 
+ div {
+    border: 2px blueviolet solid;
+    width: 1000px;
+    margin: auto;
+    padding: 50px;
+  }
+  
+  h1 {
+    font-family: "calibri";
+    background-color:aqua;
+    color: red;
+    margin: 5px;
+  }
+
+  p {
+    color: green;
+  }
