@@ -1,32 +1,39 @@
 :root {
-    --corFundo: #A3CFCD;
-    --corPrincipal: #000000;
-    --corSecundaria: #82A0AA;
+    --corFundo: #31175C;
+    --corPrincipal: #006CB7;
+    --corSecundaria: #00E3C5;
     --corComplementar: #2A272A;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;0,600;1,100&display=swap');
 
 body {
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url('./fundo-roxo-estrelado.jpg');
     background-color: var(--corFundo);
 }
 
+audio {
+    display: none;
+}
 
 h1 {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     color: var(--corPrincipal);
-    background-color: var(--corSecundaria);
     margin: 20px;
 }
 
 p {
+    color: var(--corPrincipal);
     font-family: 'Roboto Mono', monospace;
     font-weight: 100;
 }
 
 h2 {
-    color: var(--corComplementar);
+    color: var(--corSecundaria);
     font-family: 'Roboto Mono', monospace;
     font-weight: 500;
 }
@@ -39,12 +46,23 @@ img {
     border-radius: 10%;
 }
 
-
+footer {
+    color: var(--corPrincipal);
+}
 
 /*Classes*/
 
 .conteudo-padrao {
-    display: inline-block;
+    margin: auto;
     width: 48%;
     border: 5px #000000 solid;
+}
+
+.imagem {
+    text-align: center;
+    margin: auto;
+}
+
+1 {
+    ma
 }
